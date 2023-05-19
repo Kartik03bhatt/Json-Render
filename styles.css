@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#projectsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#projectsTable th,
+#projectsTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#projectsTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#projectsTable td:first-child {
+    width: 60%;
+}
+
+#projectsTable td:nth-child(2),
+#projectsTable td:nth-child(3) {
+    text-align: center;
+}
